@@ -1,0 +1,25 @@
+.app {
+    &_description {
+        display: flex;
+        &_text {
+            flex: 3;
+        }
+        &_image {
+            flex:2;
+            display: flex;
+            justify-content: center;
+            img {
+                width: 27rem;
+            }
+        }
+    }
+    &_links {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10rem;
+        img {
+            width: 15rem;
+        }
+    }
+}

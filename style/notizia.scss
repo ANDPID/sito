@@ -1,0 +1,68 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    &_graph {
+        width: 50%;
+        margin:auto;
+    }
+    &_paragraph {
+        &--side {
+            display: flex;
+            img {
+                width: 50%;
+                padding: 0 2rem;
+            }
+        }
+    }
+    &_tagline {
+        font-style: italic;
+    }
+    &_image {
+        width: 40vw;
+        align-self: center;
+        margin-top: 2rem;
+    }
+    &_table {
+        padding-top: 2rem;
+        table {
+            margin: auto;
+            td {
+                text-align: center;
+                margin: 0;
+                padding: 1rem;
+                border: 3px solid;
+                &:first-of-type {
+                    border-color: var(--good);
+                }
+                &:nth-of-type(2) {
+                    border-color: var(--danger);
+                }
+                &:nth-of-type(3) {
+                    border-color: var(--warn);
+                }
+            }
+        };
+        .legenda {
+            padding-top: .5rem;
+            &__item {
+                display: flex;
+                align-items: center;
+                div {
+                    width: 1rem;
+                    height: 1rem;
+                    margin: .5rem;
+                }
+                .danger {
+                    background-color: var(--danger);
+                }
+                .warn {
+                    background-color: var(--warn);
+                }
+                .good {
+                    background-color: var(--good);
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,22 @@
+- var url = ""
+
+include includes/page-top
+#content.home 
+    h1.home_title Benvenuti sul sito dell'ANDPID
+    img.home_image(src="/_assets/porcellini.jpg", alt="benvenuto!")
+    .home_news 
+        .container
+            h2.home_news_title Le ultime notizie dall'associazione
+            a.home_news_box(href="/alimentazione")  
+                h3 La giusta alimentazione
+                img(src="/_assets/food.jpg", alt="cibo per animali")
+            a.home_news_box(href="/intervista") 
+                h3 Tutto sulla cura del pelo
+                img(src="/_assets/porcellino-pelo.jpg", alt="porcellino d'india a pelo lungo")
+            a.home_news_box--last(href="/notizie")
+                h3 Tutte le notizie...
+    .home_app 
+        h1.home_app_title &Egrave; arrivata l'ANDPIDapp!
+        a(href="/app").home_app_button Scopri l'applicazione 
+    .home_where 
+include includes/footer

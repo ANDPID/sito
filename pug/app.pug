@@ -1,0 +1,20 @@
+- var url = "app"
+
+include includes/page-top
+#content 
+    h1 Arrivata l'ANDPIDapp!!
+    .app
+        .app_description 
+            .app_description_text
+                p L'ANDPID, in collaborazione con Design for EveryWhere, ha creato un'applicazione per aiutarti a prenderti cura della tua creatura.
+                p Con questa applicazione non ti dimenticherai pi&ugrave; di lucidare il pelo al tuo porcellino e grazie ai suggerimenti, avrai la possibilit&agrave; di rendere il tuo amico a quattro zampe ancora pi&ugrave; sano e coccoloso.
+                p Vuoi provare una versione semplificata dell'
+                    a(href="/test") applicazione? 
+            .app_description_image 
+                img(tabindex=-1, src="/_assets/porcellino-pc.jpg", alt="porcellino d'india al pc")
+        .app_links 
+            a(tabindex=1, href="https://www.apple.com/it/shop") 
+                img.app_links_apple(src="/_assets/apple.png", alt="apple store")       
+            a(tabindex=2, href="https://play.google.com/")
+                img.app_links_android(src="/_assets/android.png", alt="google play")
+include includes/footer

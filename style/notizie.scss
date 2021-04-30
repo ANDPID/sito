@@ -1,0 +1,31 @@
+#content {
+    .news {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+            color: var(--text);
+            opacity: 1;
+        }
+        &_box {
+            width: 30%;
+            &_title {
+                text-decoration: underline dashed;
+            }
+            &_image {
+                width: 100%;
+                filter: grayscale(40%);
+            }
+            &:hover {
+                color: var(--primary);
+                .news_box_title {
+                    text-decoration: underline;
+                }
+                img {
+                    filter: grayscale(0);
+                }
+            }
+        }
+    }
+}

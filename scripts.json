@@ -1,0 +1,26 @@
+{
+  "$schema": "https://deno.land/x/denon@2.4.7/schema.json",
+  "watch": false,
+  "scripts": {
+    "start": {
+      "cmd": "deno run app.ts",
+      "desc": "run my app.ts file"
+    },
+    "dev": {
+      "cmd": "deno run --allow-read --allow-write --allow-net --unstable app.ts dev",
+      "watch": true,
+      "desc": "run development mode"
+    },
+    "compile": {
+      "cmd": "deno run --allow-read --allow-write --unstable app.ts",
+      "desc": "compile pug files"
+    },
+    "serve": {
+      "cmd": "deno run --allow-read --allow-net --unstable app.ts serve",
+      "desc": "start local server"
+    }
+  },
+  "watcher": {
+    "exts": ["js", "jsx", "ts", "tsx", "json"]
+  }
+}

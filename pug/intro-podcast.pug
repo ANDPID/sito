@@ -1,0 +1,18 @@
+- var url = "notizia"
+
+include includes/page-top
+#content 
+    h1 Il primo podcast
+    article.article 
+        section.article_tagline 
+            p Tra poco potrete ascoltare la prima puntata del podcast dell'ANDPID! 
+            p Pronti? 
+        img.article_image(src="/_assets/porcellino-pelo.jpg", alt="porcellino d'india a pelo lungo")
+    script. 
+        $(document).ready(() => {
+            setTimeout(() => {   
+                window.location.href="/podcast-prima"
+            }, 1200)
+        }) 
+
+include includes/footer

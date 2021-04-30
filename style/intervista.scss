@@ -1,0 +1,12 @@
+.interview {
+    display: flex;
+    flex-direction: column;
+    audio {
+        align-self: center;
+    }
+    img {
+        width: 40%;
+        align-self: center;
+        padding-top: 6rem;
+    }
+}

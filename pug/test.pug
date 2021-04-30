@@ -1,0 +1,28 @@
+- var title = "ANDPIDapp"
+- var url = "test"
+
+include includes/page-top
+main#content 
+    .test
+        .test_lists
+            section.test_lists_list
+                header
+                    h3 Da fare
+                input(type='text' placeholder='Coccolare Roger')
+                #sortable1.list-body
+                    .kanban-card
+                        p
+                            | Spazzolata
+                        button X
+                            
+            section.test_lists_list
+                header
+                    h3 Fatto
+                #sortable2.list-body
+            section.test_lists_list
+                header
+                    h3 Rimandato
+                #sortable3.list-body
+script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js") 
+script(src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js") 
+script(src="/_assets/kanban.js") 

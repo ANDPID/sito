@@ -1,0 +1,11 @@
+#content {
+    .video {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        video {
+            width: 70%;
+            margin-top: 3rem;
+        }
+    }
+}

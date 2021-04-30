@@ -1,0 +1,53 @@
+
+.test {
+    display: flex;
+    &_lists {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        &_list {
+            padding: 2rem;
+            width: 30%;
+            header {
+                text-align: center;
+            }
+            input {
+                width: 100%;
+                border: none;
+                height: 2rem;
+                border-bottom: 2px solid var(--text);
+                &:focus {
+                    outline-color: var(--primary);
+                }
+            }
+            .list-body {
+                height: 100%;
+            }
+            .kanban-card {
+                background-color: var(--primary);
+                color: var(--alt-text);
+                padding: 1rem;
+                margin: .5rem 0;
+                display: flex;
+                justify-content: space-between;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+                transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+                &:hover {
+                    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+                }
+                p {
+                    margin: 0;
+                }
+                button {
+                    border: 0;
+                    background: 0;
+                    color: var(--alt-text);
+                    font-size: 1.2em;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+  
