@@ -14,10 +14,12 @@ Deno: https://deno.land/
 `deno install -qAf --unstable https://raw.githubusercontent.com/denosaurs/denon/main/denon.ts`
 ## Istruzioni per l'avvio
 In una cartella locale clonare questo repo
+
 https:
 `git clone https://github.com/ANDPID/sito.git`
+
 ssh:
-`git clone ssh://github.com/ANDPID/sito.git`
+`git clone git@github.com:ANDPID/sito.git`
 
 Entrare nella cartella
 `cd sito`
