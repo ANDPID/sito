@@ -15,11 +15,11 @@ Deno: https://deno.land/
 ## Istruzioni per l'avvio
 In una cartella locale clonare questo repo
 
-https:
-`git clone https://github.com/ANDPID/sito.git`
-
 ssh:
 `git clone git@github.com:ANDPID/sito.git`
+
+oppure https, se non hai chiave ssh collegata:
+`git clone https://github.com/ANDPID/sito.git`
 
 Entrare nella cartella
 `cd sito`
