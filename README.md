@@ -17,7 +17,7 @@ In una cartella locale clonare questo repo
 `git clone https://github.com/ANDPID/website.git`
 
 Entrare nella cartella
-`cd website`
+`cd sito`
 
 Avviare il progetto in modalità sviluppo
 `denon dev`
