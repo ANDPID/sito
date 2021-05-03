@@ -9,7 +9,7 @@ Questa cartella contiene il codice sorgente del sito web dell'ANDPID
 ### Installare deno & denon
 Deno: https://deno.land/
 
-dopo, dalla console installare denon tramite deno:
+**dopo aver installato Deno**, dalla console installare denon tramite deno:
 
 `deno install -qAf --unstable https://raw.githubusercontent.com/denosaurs/denon/main/denon.ts`
 ## Istruzioni per l'avvio
